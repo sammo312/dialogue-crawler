@@ -1,0 +1,33 @@
+{
+  "name": "dialogue-crawler",
+  "version": "1.0.7",
+  "description": "A simple text dialogue crawler built in React!",
+  "source": "src/index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "parcel watch",
+    "build": "parcel build"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "parcel": "^2.12.0",
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0",
+    "styled-components": "^5.0.0"
+  },
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0",
+    "styled-components": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "process": "^0.11.10",
+    "typescript": "^5.5.4"
+  }
+}
